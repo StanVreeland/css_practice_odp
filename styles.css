@@ -5,3 +5,18 @@
 html {
     background-color:gray;
 }
+
+#header {
+    background-color:#1F2937;
+    height:2.5%;
+    width:80%;
+}
+
+#header-link-container {
+    width:20%;
+}
+
+.header-link {
+    color:white;
+}
+
