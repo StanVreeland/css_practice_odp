@@ -1,5 +1,4 @@
 * {
-    color:white;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -10,11 +9,16 @@ html, body {
 
 .header {
     background-color:#1F2937;
-    height:2.5%;
-    margin:left -15% right -15%;
+    color:white;
+    height:150.5%;
+    /* margin-left:-15%;
+    margin-right:-15%; */
     margin-top:0px;
     margin-bottom:0px;
     border:0px;
+    display:flex;
+    align-items:center;
+
 }
 
 #header-elements {
@@ -26,6 +30,7 @@ html, body {
     font-size:24px;
     margin-right:5%;
     display:flex;
+    width:6%;
 }
 
 #header-link-container {
@@ -53,4 +58,5 @@ html, body {
 
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
+    color:white;
 }
