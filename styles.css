@@ -1,50 +1,117 @@
 * {
     font-family: 'Roboto', sans-serif;
+    color:white;
 }
 
 html, body {
     padding:0px;
     margin:0px;
+    height:100%;
 }
 
-.header {
-    background-color:#1F2937;
-    color:white;
-    height:150.5%;
-    /* margin-left:-15%;
-    margin-right:-15%; */
-    margin-top:0px;
-    margin-bottom:0px;
-    border:0px;
+body {
+    min-height:500px;
+    height:100%;
+}
+
+
+
+/* Container Styles */
+
+.header-container, .page-top-container, .page-top-middle-container, 
+.page-bottom-middle-container, .page-bottom-container,
+.page-footer-container {
     display:flex;
     align-items:center;
-
+    width:100%;
+    margin:0px;
+    border:0px;
+    padding:0px;
 }
 
-#header-elements {
+
+
+/* Header Styles */
+
+.header-container {
+    height:3%;
+    background-color:purple;
+    display:flex;
+    align-content:center;
+}
+
+.header-content {
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    justify-content:space-between;
+    align-content:center;
     display:flex;
 }
 
-#header-logo {
-    color:#F9FAF8;
-    font-size:24px;
-    margin-right:5%;
-    display:flex;
+.header-logo {
+    align-self:center;
+    font-weight:bold;
     width:6%;
+    min-width: 5.75rem;
 }
 
-#header-link-container {
+.header-links {
     display:flex;
     justify-content:space-between;
-    width:35%;
-    max-width:30rem;
-    color:white;
+    width:30%;
+    min-width: 23rem;
 }
 
-.header-link {
-    display:inherit;
-    
+
+
+/* Page Top Container Styles */
+
+.page-top-container {
+    height:22%;
+    background-color:pink;
 }
+
+
+
+/* Page Top Middle Styles */
+
+.page-top-middle-container {
+    height:25%;
+    background-color:rgb(183, 32, 57);
+}
+
+
+
+/* Page Bottom Middle Styles */
+
+.page-bottom-middle-container {
+    height:25%;
+    background-color:rgb(62, 17, 24);
+}
+
+
+
+/* Page Bottom Styles */
+
+.page-bottom-container {
+    height:20%;
+    background-color:rgb(62, 96, 183);
+}
+
+
+
+/* Page Footer Styles */
+
+.page-footer-container {
+    height:5%;
+    background-color:rgb(33, 198, 151);
+}
+
+
+
+
+
 
 
 
