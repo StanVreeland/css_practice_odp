@@ -35,7 +35,7 @@ body {
 
 .header-container {
     height:3%;
-    background-color:purple;
+    background-color:#1F2937;
     display:flex;
     align-content:center;
 }
@@ -53,7 +53,9 @@ body {
     align-self:center;
     font-weight:bold;
     width:6%;
-    min-width: 5.75rem;
+    min-width: 9rem;
+    font-size: 24px;
+    color:#F9FAF8;
 }
 
 .header-links {
@@ -71,6 +73,55 @@ body {
     height:22%;
     background-color:pink;
 }
+
+.page-top-content {
+    height:80%;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.page-top-text {
+    color:white;
+    width:40%;
+    height: 50%;
+}
+
+.hero-main-text {
+    font-weight:bolder;
+    font-size:48px;
+    color:#F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.page-top-image {
+    width:40%;
+}
+
+
+
+
+
+
+
+
+.sign-up-button {
+    background-color: #3882f6; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-top:1.5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:10%;
+}
+
 
 
 
@@ -126,4 +177,5 @@ body {
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color:white;
+    align-self:center;
 }
