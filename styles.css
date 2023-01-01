@@ -71,7 +71,7 @@ body {
 
 .page-top-container {
     height:22%;
-    background-color:pink;
+    background-color:#1F2937;
 }
 
 .page-top-content {
@@ -79,12 +79,13 @@ body {
     width:80%;
     margin-left:10%;
     margin-right:10%;
+    display:flex;
 }
 
 .page-top-text {
     color:white;
-    width:40%;
-    height: 50%;
+    width:50%;
+    height: 100%;
 }
 
 .hero-main-text {
@@ -99,7 +100,15 @@ body {
 }
 
 .page-top-image {
-    width:40%;
+    width:50%;
+    background-color:gray;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+
+.placeholder-text {
+    height:fit-content;
 }
 
 
@@ -129,7 +138,45 @@ body {
 
 .page-top-middle-container {
     height:25%;
-    background-color:rgb(183, 32, 57);
+    background-color:white;
+    justify-content:center;
+}
+
+.page-top-middle-content {
+    height:90%;
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.top-middle-text {
+    font-size: 36px;
+    font-style:bolder;
+    color:#1F2937;
+    height:10%
+}
+
+.info-box-container {
+    justify-content:space-evenly;
+    width:100%;
+
+}
+
+.info-boxtext {
+    align-content:center;
+
+}
+
+.info-box {
+    background-color: white;
+    color: white;
+    border-width:5px;
+    border-color:#3882f6;
+    display: inline-block;
+    border-radius:10%;
 }
 
 
