@@ -281,8 +281,13 @@ body {
 
 .page-footer-container {
     height:5%;
-    background-color:rgb(33, 198, 151);
+    background-color:#1F2937;
+    display:flex;
+    align-content:center;
+    justify-content:center;
 }
+
+
 
 
 
