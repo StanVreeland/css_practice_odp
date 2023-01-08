@@ -80,11 +80,12 @@ body {
     margin-left:10%;
     margin-right:10%;
     display:flex;
+    justify-content:space-between;
 }
 
 .page-top-text {
     color:white;
-    width:50%;
+    width:47.5%;
     height: 100%;
 }
 
@@ -100,7 +101,7 @@ body {
 }
 
 .page-top-image {
-    width:50%;
+    width:47.5%;
     background-color:gray;
     justify-content:center;
     align-items:center;
@@ -110,13 +111,6 @@ body {
 .placeholder-text {
     height:fit-content;
 }
-
-
-
-
-
-
-
 
 .sign-up-button {
     background-color: #3882f6; /* Green */
@@ -130,7 +124,6 @@ body {
     font-size: 16px;
     border-radius:10%;
 }
-
 
 
 
@@ -183,19 +176,20 @@ body {
 .box-and-text {
     width:20%;
     height:100%;
+    align-content:center;
 }
 
 .info-box {
     display:block;
-    background-color: white;
+    background-color:white;
     color: white;
     border-width:35%;
     border-color:#3882f6;
     border-style:solid;
-    display: inline-block;
     border-radius:10%;
-    width:100%;
-    height:67%;
+    width:9.5rem;
+    height:9.5rem;
+    margin:auto;
 }
 
 
@@ -214,15 +208,15 @@ body {
     display:flex;
     align-content:flex-end;
     flex-wrap:wrap;
-    width:100%;
+    width:70%;
 }
 
 .bottom-middle-main {
     color:#1F2937;
     font-style:italic;
-    font-size:36px;
+    font-size:30px;
     font-weight:light;
-    text-align:center;
+    text-align:left;
 }
 
 .bottom-middle-sub {
@@ -230,6 +224,7 @@ body {
     font-weight:bold;
     font-size:16px;
     justify-content:flex-end;
+    margin-left:80%;
 }
 
 
@@ -238,10 +233,49 @@ body {
 
 .page-bottom-container {
     height:20%;
-    background-color:rgb(62, 96, 183);
+    background-color:#FFFFFF;
 }
 
+.bottom-content {
+    width:80%;
+    height:50%;
+    background-color:#3882F6;
+    border-radius:0.75rem;
+    margin:auto;
+    display:flex;
+    justify-content: space-evenly;
+}
 
+.call-text {
+    width:fit-content;
+    padding-top:4.5%;
+}
+
+.call-main {
+    font-weight:bold;
+    font-size:24px;
+}
+
+.call-sub {
+    color:#E5E7EB;
+    font-size:18px;
+}
+
+.sign-up-button-bot {
+    border: solid;
+    color: white;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:10%;
+    height:25%;
+    width: 12.5%;
+    /* margin-top:4.5%; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Page Footer Styles */
 
